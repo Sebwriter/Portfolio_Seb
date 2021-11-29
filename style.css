@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+}
+
+/*header*/
+.navbar {
+    white-space: nowrap;
+    background-color: lightcoral;
+}
+
+.segment_navbar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icone_home i {
+    font-size: 3em;
+    margin-left: 0.4em;
+}
+.navbar ul {
+    list-style: none;
+    display: inline-flex;
+}
+.nom {
+    padding-right: 1em;
+}
+.sans_rs {
+    padding-left: 1em;
+}
+
+
+.sans_rs li {
+    margin: 0 2em;
+}
+
+.reseaux_sociaux {
+display: flex;
+flex-wrap: wrap;
+max-width: 70px;
+justify-content: center;
+margin-right: 0.4em;
+}
+.reseaux_sociaux i {
+    font-size: 2em;
+}
+.tw {
+    margin-left: 10px;
+}
+/*fin_header*/
+
+/*main*/
+main {
+    display: flex;
+    flex-direction: row;
+}
+.zone_texte {
+    float: left;
+    width: 50%;
+}
+.portrait_seb {
+    float: right;
+    width: 50%;
+}
