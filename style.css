@@ -6,6 +6,7 @@ body {
 .navbar {
     white-space: nowrap;
     background-color: lightcoral;
+    color: darkslateblue;
 }
 
 .segment_navbar {
