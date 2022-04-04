@@ -1,18 +1,19 @@
 body {
     margin: 0;
+    cursor:default
 }
 
 /*header*/
 .navbar {
     white-space: nowrap;
-    background-color: lightcoral;
-    color: darkslateblue;
+    background-color: #f1ddcd;
+    color: #8faadc;
 }
 
 .segment_navbar {
     display: inline-flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-around;
     width: 100%;
 }
 
@@ -40,13 +41,18 @@ body {
 display: flex;
 flex-wrap: wrap;
 max-width: 70px;
-justify-content: center;
+justify-content: space-between;
 margin-right: 0.4em;
 }
+
+/*.fb:hover,.li:hover,.fa-home:hover,.portfolio:hover,.about_me:hover,.contact:hover {
+    color: #507bcb;
+}*/
+
 .reseaux_sociaux i {
     font-size: 2em;
 }
-.tw {
+.li {
     margin-left: 10px;
 }
 /*fin_header*/
